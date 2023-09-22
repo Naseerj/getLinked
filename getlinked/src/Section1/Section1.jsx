@@ -12,14 +12,17 @@ const Section1 = () => {
       <div className="parent1div">
         <div className="text1div">
           <h1 className="firstheader">
-            getlinked Tech <br /> Hackathon 1.0 <img src={chain} alt="" />
-            <img src={bulb} alt="" />
+            getlinked Tech <br /> Hackathon 1.0 
+            <img className="chain" src={chain} alt="" />
           </h1>
           <p>
             Participate in getlinked tech Hackathon 2023 stand a chance to win a
             Big prize
           </p>
           <button>Register</button>
+          <h1>00h 00m 00s</h1>
+          <img className="bulb" src={bulb} alt="" />
+
         </div>
         <div className="manglobediv">
           <h2>Igniting a Revolution in HR Innovation</h2>

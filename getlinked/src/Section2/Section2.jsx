@@ -8,7 +8,7 @@ const Section2 = () => {
       <div className="parent2div">
         <div className="text3div">
           <h1>
-            Rules and <br /> Guidelines
+            Rules and <br /><span className="tech">Guidelines</span> 
           </h1>
           <p>
             Our tech hackathon is a melting pot of visionaries, and its purpose
@@ -22,33 +22,33 @@ const Section2 = () => {
         <img className="lady" src={lady} alt="" />
       </div>
       <div className="girlboydiv">
-        <img src={girlboy} alt="" />
-        <div>
-          <h1>Judging Criteria <br /> Key attributes</h1>
+        <img className="girlboy" src={girlboy} alt="" />
+        <div className="text4div">
+          <h1>Judging Criteria <br /> <span className="tech">Key attributes</span> </h1>
           <p>
-            Innovation and Creativity: Evaluate the uniqueness and creativity of
+            <span className="tech2">Innovation and Creativity:</span> Evaluate the uniqueness and creativity of
             the solution. Consider whether it addresses a real-world problem in
             a novel way or introduces innovative features.
           </p>
           <p>
-            Functionality: Assess how well the solution works. Does it perform
+            <span className="tech2">Functionality:</span> Assess how well the solution works. Does it perform
             its intended functions effectively and without major issues? Judges
             would consider the completeness and robustness of the solution.
           </p>
           <p>
-            Impact and Relevance: Determine the potential impact of the solution
+           <span className="tech2"> Impact and Relevance:</span> Determine the potential impact of the solution
             in the real world. Does it address a significant problem, and is it
             relevant to the target audience? Judges would assess the potential
             social, economic, or environmental benefits.
           </p>
           <p>
-            Technical Complexity: Evaluate the technical sophistication of the
+            <span className="tech2" >Technical Complexity:</span> Evaluate the technical sophistication of the
             solution. Judges would consider the complexity of the code, the use
             of advanced technologies or algorithms, and the scalability of the
             solution.
           </p>
           <p>
-            Adherence to Hackathon Rules: Judges will Ensure that the team
+            <span className="tech2">Adherence to Hackathon Rules:</span> Judges will Ensure that the team
             adhered to the rules and guidelines of the hackathon, including
             deadlines, use of specific technologies or APIs, and any other
             competition-specific requirements.
