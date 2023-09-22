@@ -1,0 +1,49 @@
+.color-span {
+  color: #d434fe;
+  /* font-family: Clash Display; */
+  /* font-size: 36px; */
+  /* font-style: normal;
+  font-weight: 700;
+  line-height: normal; */
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #150e28;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 3rem 5rem 2rem 5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.linksdiv {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linksdiv a {
+  text-decoration: none;
+  color: white;
+}
+
+.linksdiv button {
+  background: linear-gradient(270deg, #903aff 0%, #fe34b9 100%);
+  border: none;
+  /* padding: .5rem; */
+  width: 172px;
+  height: 53px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@0,700;1,700&family=Noto+Sans+Osmanya&display=swap");
+
+.overall1div {
+  padding: 5rem 7rem 5rem 7rem;
+}
+
+.parent1div {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  /* width:; */
+}
+
+.firstheader {
+  font-size: 5rem;
+  font-family: "Clash-Display";
+}
+.man {
+  filter: grayscale(80%);
+  width: 600px;
+}
+.globe {
+  width: 500px;
+}
+.parent1div button {
+  background: linear-gradient(270deg, #903aff 0%, #fe34b9 100%);
+  border: none;
+  /* padding: .5rem; */
+  width: 172px;
+  height: 53px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.parent1div {
+  /* width: 500px; */
+  /* background-image: url(../assets/Image\ 1.svg); */
+  background-size: contain;
+}
+.manglobediv h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.strikethrough {
+  margin-left: 230px;
+}
+.globe {
+  position: absolute;
+  left: 800px;
+  /* z-index: -1; */
+}
+
+.text1div {
+  width: 100%;
+}
+.ideadiv {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.text2div {
+  width: 40%;
+  padding-top: 5rem;
+}
+.text2div h1 {
+  font-family: "Clash-display";
+}
+.text2div p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+}
+
+.text2div h1 span {
+  font-family: "Clash-display";
+}
+.tech {
+  color: #d434fe;
+  font-family: Clash Display;
+  /* font-size: 80px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

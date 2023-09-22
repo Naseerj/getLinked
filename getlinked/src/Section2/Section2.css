@@ -1,0 +1,36 @@
+
+
+.overall2div{
+    padding: 5rem 7rem 5rem 7rem;
+}
+
+.parent2div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text3div{
+    width: 500px;
+    padding-top: 5rem;
+}
+
+
+  .text3div h1 {
+    font-family: "Clash-display";
+  }
+  .text3div p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 196.429% */
+  }
+  
+  .text3div h1 span {
+    font-family: "Clash-display";
+  }
+
+.girlboydiv{
+    display: flex;
+}
