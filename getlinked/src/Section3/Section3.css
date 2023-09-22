@@ -1,0 +1,147 @@
+.overall3div {
+  margin: 0 auto;
+}
+.overall3div > h2 {
+  text-align: center;
+  font-family: "Clash-display";
+}
+.overall3div > p {
+  text-align: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%; /* 24.136px */
+}
+.parent3div {
+  padding: 5rem 4rem 5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  height: 1000px;
+}
+
+.parent3div h2 {
+  color: #d434fe;
+  font-family: "Montserrat";
+  text-align: right;
+}
+.parent3div p {
+  font-family: "Montserrat";
+}
+
+.div1 {
+  padding: 2rem 5rem 2rem 2rem;
+}
+.div1opp {
+  padding: 3.5rem 0 4rem 5rem;
+  color: #d434fe;
+  text-align: left;
+}
+.div1opp h2 {
+  text-align: left;
+}
+.div1 p {
+  text-align: right;
+}
+.div2 {
+  padding: 2.5rem 5rem 4rem 0;
+}
+.div2opp {
+  padding: 1rem 0 2.2rem 5rem;
+  text-align: left;
+}
+.div2opp h2 {
+  color: #d434fe;
+
+  text-align: left;
+}
+.div2 p {
+  text-align: right;
+}
+
+.div3 {
+    padding: 1rem 5rem 4rem 0;
+  }
+  .div3opp {
+    padding: 3rem 0 2rem 5rem;
+    text-align: left;
+  }
+  .div3opp h2 {
+    color: #d434fe;
+  
+    text-align: left;
+  }
+  .div3 p {
+    text-align: right;
+  }
+
+  .div4 {
+    padding: 1rem 5rem 4rem 0;
+  }
+  .div4opp {
+    padding: 2rem 0 .5rem 5rem;
+    text-align: left;
+  }
+  .div4opp h2 {
+    color: #d434fe;
+    text-align: left;
+  }
+  .div4 p {
+    text-align: right;
+  }
+  .div5 {
+    padding: 1rem 5rem 2.5rem 0;
+  }
+  .div5opp {
+    padding: 4rem 0 2.5rem 5rem;
+    text-align: left;
+  }
+  .div5opp h2 {
+    color: #d434fe;
+    text-align: left;
+  }
+  .div5 p {
+    text-align: right;
+  }
+
+  .div6 {
+    padding: 1rem 5rem 4rem 0;
+  }
+  .div6opp {
+    padding: 2rem 0 5rem 5rem;
+    text-align: left;
+  }
+  .div6opp h2 {
+    color: #d434fe;
+    text-align: left;
+  }
+  .div6 p {
+    text-align: right;
+  }
+
+
+hr {
+  width: 100px;
+  rotate: 90deg;
+  height: 5px;
+  background: #d434fe;
+  border: none;
+}
+.circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
+  text-align: center;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+}
+.hrdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
